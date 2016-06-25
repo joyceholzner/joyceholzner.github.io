@@ -25,7 +25,7 @@ body, html {
 	z-index: 4;
 	background-image: url(screens/home_bg-color.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-position: top center;
 	animation: rotate00 15s linear infinite;
 }
