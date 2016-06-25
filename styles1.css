@@ -17,10 +17,10 @@ body, html {
 	background-size: cover;
 }
 .map__color	{ 
-	width: 1459px; 
-	height: 1459px;
-	/*width: 100vw;
-	height: 100vh;*/
+/*	width: 1459px; 
+	height: 1459px;*/
+	width: 100vw;
+	height: 100vh;
 	position: fixed;
 	z-index: 4;
 	background-image: url(screens/home_bg-color.png);
