@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body, html {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   font-family: 'Roboto', sans-serif;
 }
 .map__sketch {
-  width: 100%; 
-	height: 100%; 
+  width: 100vw; 
+	height: 100vh; 
   position: fixed !important;
   z-index: 5;
   top: 0;
@@ -19,15 +19,15 @@ body, html {
 .map__color	{ 
 /*	width: 900px; 
 	height: 900px;*/
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	position: fixed;
 	z-index: 4;
 	background-image: url(screens/home_bg-color.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-/*	animation: rotate00 15s linear infinite;*/
+	animation: rotate00 15s linear infinite;
 }
 .circ__top {
 	height: 800px;
