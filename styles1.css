@@ -166,7 +166,7 @@ body, html {
 /*	width: 400px;*/
 	height: 25vh;
 	/*width: 350px;*/
-	width: 25vw;
+	width: 33vw;
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -184,7 +184,7 @@ body, html {
 	width: 40%;
 	height: 100%;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 1.9vw;
 	font-weight: 600;
 	color: #6ecde3;
 	word-wrap: break-word;
@@ -192,9 +192,9 @@ body, html {
 .cont__box{
 	width: 60%;
 	height: 100%;
-	padding: 15px;
+	padding: 20px;
 	word-spacing: 3px;
-	font-size: 12px;
+	font-size: .9vw;
  	word-wrap: keep-all;
  	overflow: hidden;
   text-overflow: ellipsis;
