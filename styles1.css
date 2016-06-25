@@ -21,6 +21,7 @@ body, html {
 	height: 1459px;
 /*	width: 100vw;
 	height: 100vh;*/
+	margin-top: -10%;
 	position: fixed;
 	z-index: 4;
 	background-image: url(screens/home_bg-color.png);
