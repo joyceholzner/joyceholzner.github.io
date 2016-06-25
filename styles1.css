@@ -23,6 +23,7 @@ body, html {
 	height: 100vh;*/
 	margin-top: -10%;
 	margin-right: -30%;
+	padding-left: 15%;
 	position: fixed;
 	z-index: 4;
 	background-image: url(screens/home_bg-color.png);
