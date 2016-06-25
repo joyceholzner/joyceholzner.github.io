@@ -26,7 +26,7 @@ body, html {
 	background-image: url(screens/home_bg-color.png);
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
-	background-position: center;
+	background-position: top center;
 	animation: rotate00 15s linear infinite;
 }
 .circ__top {
