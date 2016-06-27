@@ -42,12 +42,61 @@
 				left: auto !important;
 				right:80px !important;
 			}
+			.circ__top {
+				height: 800px;
+				width: 800px;
+				position: fixed;
+				margin-top: -450px;
+				margin-left: 950px;
+				z-index: 10;
+				background-image: url(screens/bg_c1.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			.circ__bot {
+				height: 800px;
+				width: 800px;
+				position: fixed;
+				margin-top: -450px;
+				margin-left: 1000px;
+				z-index: 10;
+				background-image: url(screens/bg_c2.png);
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			.rot__circ0 {
+			  -webkit-animation: rotate 30s linear infinite;
+			}
+
+			.rot__circ1 {
+							-webkit-animation: rotate0 30s linear infinite;
+						}
+						@-webkit-keyframes rotate {
+			    from{
+			        -webkit-transform: rotate(0deg);
+			    }
+			    to{
+			        -webkit-transform: rotate(360deg);
+			    }
+			}
+
+			@-webkit-keyframes rotate0 {
+			    from{
+			        -webkit-transform: rotate(360deg);
+			    }
+			    to{
+			        -webkit-transform: rotate(0deg);
+			    }
+			}
 
 			</style>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
 
 <body class="page page-business-investment">
+
+	<div class="circ__top rot__circ0"></div>
+	<div class="circ__bot rot__circ1"></div>
 
 <div id = "panel">
             </div>
