@@ -1822,7 +1822,7 @@ to {
 }
 .circle-nav-marker {
     position: absolute;
-    z-index: 0;
+    z-index: 5;
     top: 50%;
     left: 50%;
     display: -webkit-flex;
