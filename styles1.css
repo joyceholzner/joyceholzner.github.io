@@ -188,7 +188,7 @@ body, html {
 }
 .desc__box {
 /*	width: 400px;*/
-	height: 25vh;
+	height: auto;
 	/*width: 350px;*/
 	width: 33vw;
 	position: fixed;
@@ -206,7 +206,7 @@ body, html {
 }
 .title__box {
 	width: 40%;
-	height: 100%;
+	height: auto;
 	padding: 10px;
 	font-size: 1.9vw;
 	font-weight: 600;
@@ -215,13 +215,14 @@ body, html {
 }
 .cont__box{
 	width: 60%;
-	height: 100%;
+	height: auto;
 	padding: 20px;
 	word-spacing: 3px;
 	font-size: .9vw;
  	word-wrap: keep-all;
  	overflow: hidden;
   text-overflow: ellipsis;
+  border-left: 2px solid #919191;
 }
 .rot__circ0 {
   -webkit-animation: rotate 30s linear infinite;
