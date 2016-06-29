@@ -4,6 +4,9 @@ body, html {
   width: 100vw;
   font-family: 'Roboto', sans-serif;
 }
+a {
+	text-decoration: none !important;
+}
 .map__sketch {
   width: 100vw; 
 	height: 100vh; 
@@ -53,6 +56,31 @@ body, html {
 	background-image: url(screens/bg_c2.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+}
+.point__1 {
+	width: 350px;
+	height: 214px;
+	z-index: 8;
+	top: 0;
+	left: 0;
+	margin-top: 100px;
+	margin-left: 25vw; /*800px*/
+	background-image: url(screens/seletar_aerospace_park.png);
+	background-repeat: no-repeat;
+	background-size: 350px 214px;
+	position: fixed;
+	color: #0154ba;
+	font-size: 1.5vw;
+	font-weight: 600;
+	padding: 15px;
+}.point__1:hover {
+	width: 350px;
+	height: 214px;
+	z-index: 8;
+	background-image: url(screens/seletar_aerospace_park_h.png);
+	background-repeat: no-repeat;
+	background-size: 350px 214px;
+	position: fixed;
 }
 .point__2 {
 	width: 260px;
@@ -141,31 +169,6 @@ body, html {
 	background-image: url(screens/pointer_5b.png);
 	background-repeat: no-repeat;
 	background-size: 216px 190px;
-}
-.point__1 {
-	width: 350px;
-	height: 214px;
-	z-index: 8;
-	top: 0;
-	left: 0;
-	margin-top: 100px;
-	margin-left: 700px;
-	background-image: url(screens/seletar_aerospace_park.png);
-	background-repeat: no-repeat;
-	background-size: 350px 214px;
-	position: fixed;
-	color: #0154ba;
-	font-size: 1.5vw;
-	font-weight: 600;
-	padding: 15px;
-}.point__1:hover {
-	width: 350px;
-	height: 214px;
-	z-index: 8;
-	background-image: url(screens/seletar_aerospace_park_h.png);
-	background-repeat: no-repeat;
-	background-size: 350px 214px;
-	position: fixed;
 }
 .loc__guide {
 	width: 168px;
