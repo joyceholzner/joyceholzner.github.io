@@ -67,6 +67,7 @@ webpackJsonp([9], {
                         this.setInactive(t), this.$el.trigger("circleNav-item-mouseout", t)
                     }
                 }, {
+                    // Set Active
                     key: "setActive",
                     value: function(e) {
                         this.$el.removeClass("js-circle-nav-initial").attr("data-active", e).find(".circle-nav-item:eq(" + e + "), .circle-nav-marker:eq(" + e + ")").addClass("js-active").siblings(".js-active").removeClass("js-active")
