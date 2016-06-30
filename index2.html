@@ -17,7 +17,10 @@
 				left:auto;
 				right:38px;
 			}
-			.page-business-agro article.text::before, .page-business-culture article.text::before, .page-business-development article.text::before, .page-business-investment article.text::before {
+			/*.page-business-agro article.text::before,
+			.page-business-culture article.text::before,
+			.page-business-development article.text::before, */
+			.page-business-investment article.text::before {
 				background: none;
 				/*width: 25vw;*/
 			}
@@ -48,9 +51,10 @@
 				left:0;
 			}
 			.page-business-investment .circle-nav-items {
-				position:absolute;
+				position: absolute;
 				right: -60vw;
 				top:50%;
+				/*padding-left: 100px;*/
 			}
 			.page-business-investment article.text {
 				left: auto !important;
@@ -78,8 +82,13 @@
 				translate(-24.54px,8.59px);
 			}
 			.page-business-investment .circle-nav[data-active="0"] .circle-nav-item:nth-of-type(4) {
-				transform: translate(-50%,-50%)
+				/*transform: translate(-50%,-50%)
 				translate(-65.22291vw,26.0984vw)
+				translate(-49.29355%,8.37531%)
+				translate(-25.63px,4.36px);*/
+
+				transform: translate(-50%,-50%)
+				translate(-67.22291vw,26.0984vw)
 				translate(-49.29355%,8.37531%)
 				translate(-25.63px,4.36px);
 			}
@@ -607,19 +616,20 @@
 		  .btn_backfirstpage:hover {
 		  	background-color: #929292;
 		  }
-		  .page-business-agro .circle-nav-name, .page-business-culture .circle-nav-name, .page-business-development .circle-nav-name, .page-business-investment .circle-nav-name {
+		  .page-business-investment .circle-nav-name {
 		  	font-size: 1.5rem;
 		  }
-		  .page-business-agro .circle-nav-item:hover .circle-nav-name, .page-business-culture .circle-nav-item:hover .circle-nav-name, .page-business-development .circle-nav-item:hover .circle-nav-name, .page-business-investment .circle-nav-item:hover .circle-nav-name {
+		  .page-business-investment .circle-nav-item:hover .circle-nav-name {
 		  	color: #00BFFF;
 		  	opacity: 1;
 		  }
-		  .page-business-agro .circle-nav-item:hover .circle-nav-name, .page-business-culture .circle-nav-item:hover .circle-nav-name, .page-business-development .circle-nav-item:hover .circle-nav-name, .page-business-investment .circle-nav-item .circle-nav-name {
+		  .circle-nav-item .circle-nav-name {
 		  	font-size: 22px;
 		  	color: #bdbebf;
 		  	font-weight: 600;
 		  	line-height: 1.3;
-		  	vertical-align: text-top; /*-webkit-baseline-middle*/
+		  	vertical-align: -webkit-baseline-middle;
+		  	/*margin-left: 10px;*/
 		  }
 		  .nav-inner {
 		  	background-color: #00BFFF;
@@ -634,9 +644,12 @@
 		  	background-color: #6ecde3;
 		  	text-decoration: none;
 		  }
-		  .sp {
-		  	margin-top: 5px !important;
-		  	color: none;
+		  .nav-main .nav-main-sub-item {
+		  	color: white;
+		  }
+		  .nav-main-item {
+		  	font-size: 22px;
+		  	/*font-weight: normal;*/
 		  }
 			</style>
 
@@ -651,25 +664,30 @@
 	</div> -->
 	<div class="circ__top rot__circ0"></div>
 	<div class="circ__bot rot__circ1"></div>
-<!--
-	<div class="circ__top rot__circ0"></div>
-	<div class="circ__bot rot__circ1"></div>
-  <div id = "panel"></div>
-  <div id="ajax-loader" class="ajax-loader js-ajax-loader">
-      <div class="loader-background js-ajax-loader-background"></div>
-      <div class="indicator"></div>
-  </div>
--->
+
 <div id="page-content" class="js-page-content clearfix page-business-investment" data-page="page-business-investment">
   <nav class="nav">
     <div class="nav-inner">
       <div class="nav-content hidden">
         <ul class="nav-contacts"></ul>
 					<ul class="nav-main">
-						<li><a href="" class="nav-main-item ">Seletar Aerospace Park</a></li>                
-            <li><a href="" id="business-link" class="nav-main-item ">Seletar Aerospace Park</a></li>  
-            <li><a href="" class="nav-main-item ">Seletar Aerospace Park</a></li>
-            <li><a href="" class="nav-main-item ">Seletar Aerospace Park</a></li>
+						<li><a href="" class="nav-main-item ">CleanTech Park</a>
+							<ul class="nav-main-sub">
+								<li><a href="" class="nav-main-sub-item">JTC CleanTech One | </a></li>
+								<li><a href="" class="nav-main-sub-item">JTC CleanTech Two | </a></li>
+								<li><a href="" class="nav-main-sub-item">Jurong Eco-Garden </a></li>
+							</ul>
+						</li>   
+
+            <li><a href="" class="nav-main-item ">Gul</a></li>  <!-- id="business-link" -->
+            <li><a href="" class="nav-main-item ">iHub</a></li>
+            <li><a href="" class="nav-main-item ">Jurong Island</a></li>
+            <!-- <li><a href="" class="nav-main-item ">Jurong Port Road</a></li>
+            <li><a href="" class="nav-main-item ">MedTech Park</a>
+            	<ul class="nav-main-sub">
+            		<li><a href="" class="nav-main-sub-item">JTC MedTech Hub</a></li>
+            	</ul>
+            </li> -->
           </ul>
       </div>
   	</div>
@@ -727,7 +745,7 @@
 					<span class="circle-nav-name  ">Drone Based 3D Mapping</span>
 				</li>
 				<li class="circle-nav-item   ">
-					<span class="circle-nav-name  ">BigBelly (Smart Bin) Pilot <br>Implementation Pilot Implementation</span>
+					<span class="circle-nav-name  ">BigBelly (Smart Bin) Pilot Implementation Pilot<br> Implementation</span>
 				</li>
 				<li class="circle-nav-item   ">
 					<span class="circle-nav-name  ">Environmental Monitoring with an <br>Autonomous Submersible Vehicle</span>
