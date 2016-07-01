@@ -23,8 +23,6 @@ a {
 .map__color	{ 
 	width: 1459px; 
 	height: 1459px;
-/*	width: 100vw;
-	height: 100vh;*/
 	margin-top: -13%;
 	margin-right: -70%;
 	padding-left: 15%;
@@ -84,13 +82,6 @@ a {
 	background-size: 350px 214px;
 	position: fixed;
 }
-/*.point__1:active {
-	width: 100vw !important;
-	height: 100vh !important;
-	background-color: orange;
-	top: 0 !important;
-	left: 0 !important;
-}*/
 .point__2 {
 	width: 260px;
 	height: 200px;
@@ -200,9 +191,9 @@ a {
 }
 .desc__box {
 /*	width: 400px;*/
-	height: auto;
-	/*width: 350px;*/
-	width: 33vw;
+	height: 789px;
+	width: 488px;
+	/*width: 33vw;*/
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -211,6 +202,7 @@ a {
 	z-index: 7;
 	display: -webkit-flex;
   display: flex;
+  background-image: url(screens/intro_bg.png);
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   word-wrap: keep-all;
 /*  font-family: 'Roboto', sans-serif;*/
