@@ -21,15 +21,15 @@ a {
 	background-size: cover;
 }
 .map__color	{ 
-	width: 1459px; 
-	height: 1459px;
+	width: 1755px; 
+	height: 1755px;
 	margin-top: -13%;
 	margin-right: -70%;
 	padding-left: 15%;
 	position: fixed;
 	z-index: 4;
 	/*background-image: url(screens/home_bg-color.png);*/
-	background-image: url(screens/home_bg-color_v3.png);
+	background-image: url(screens/home_bg-color_v4.png);
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-position: top center;
@@ -212,7 +212,7 @@ a {
 	width: 100%;
 	height: auto;
 	padding: 20px;
-	font-size: 4vw;
+	font-size: 3vw;
 	font-weight: 600;
 	color: #6ecde3;
 	word-wrap: break-word;
