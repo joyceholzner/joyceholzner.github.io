@@ -1233,6 +1233,8 @@
 
 <script src="js/shared.raw.js"></script>
 <script src="js/investment.raw.js"></script>
+<!-- <script src="shared.js"></script>
+<script src="investment.js"></script> -->
 
 	<script type="text/javascript">
 	$(function(){ 
@@ -1306,6 +1308,8 @@
 
 			// }
 		});
+
+		$('.js-project-text').eq(0).addClass("js-active").siblings(".js-active").removeClass("js-active");	
 
 		$('#nextnav').on('click', function(e) {
 			var curitem = $('.circle-nav').attr('data-active');		
