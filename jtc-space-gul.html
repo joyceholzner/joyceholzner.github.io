@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html dir="ltr" lang="ru" class="no-touch no-js">
+    <html class="no-touch no-js">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
@@ -17,9 +17,6 @@
         left:auto;
         right:38px;
       }
-      /*.page-business-agro article.text::before,
-      .page-business-culture article.text::before,
-      .page-business-development article.text::before, */
       .page-business-investment article.text::before {
         background: none;
         /*width: 25vw;*/
@@ -34,7 +31,7 @@
         top:-10vh;
         margin:4px;
         border:2px solid #00BFFF;
-        border-radius: 28%;
+        border-radius: 29%;
       }
       .cv-inner-wrap {
         position:absolute;
@@ -59,7 +56,17 @@
       .page-business-investment article.text {
         left: auto !important;
         right:80px !important;
-      }
+        top: 0;
+        margin-top: 370px;
+        padding-bottom: 15vh;
+        width: 500px;
+      }/*
+      .page-business-investment article.text {
+        top: 0;
+        margin-top: 500px;
+        padding-bottom: 15vh;
+        width: 500px;
+      }*/
       .circle-nav-items {
         padding-right: 0;
       }
@@ -468,7 +475,7 @@
         translate(-25.63px,4.36px);
       }
       .page-business-investment .circle-nav[data-active="13"] .circle-nav-item:nth-of-type(15) {
-        transform: translate(-50%,-50%)
+        transform: translate(-50%,-50%)       
         translate(-55.22291vw,9.21284vw)
         translate(-49.29355%,8.37531%)
         translate(-25.63px,4.36px);
@@ -485,11 +492,37 @@
         translate(-47.19417%,16.51395%) 
         translate(-24.54px,8.59px);
       }
-      
-      /*.page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(16) {
+      /*active 15*/
+      .page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(12) {
+        transform: translate(-50%,-50%)
+        translate(-56.22291vw,-17.21284vw)
+        translate(-49.29355%,8.37531%)
+        translate(-25.63px,4.36px);
+      }
+      .page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(13) {
+        transform: translate(-50%,-50%)
+        translate(-55.22291vw,-9.21284vw)
+        translate(-49.29355%,8.37531%)
+        translate(-25.63px,4.36px);
+      }
+      .page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(15) {
+        transform: translate(-50%,-50%)       
+        translate(-55.22291vw,9.21284vw)
+        translate(-49.29355%,8.37531%)
+        translate(-25.63px,4.36px);
+      }
+      .page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(16) {
+        transform: translate(-50%,-50%) 
+        translate(-57.61358vw,18.16535vw) 
+        translate(-47.19417%,16.51395%) 
+        translate(-24.54px,8.59px);
       }
       .page-business-investment .circle-nav[data-active="14"] .circle-nav-item:nth-of-type(17) {
-      }*/
+        transform: translate(-50%,-50%)
+        translate(-67.22291vw,26.0984vw)
+        translate(-47.19417%,16.51395%) 
+        translate(-24.54px,8.59px);
+      }
 
       /*active 15*/
       .circ__top {
@@ -562,12 +595,7 @@
         background-color: #929292;
         border-radius:50%;
       }
-      .page-business-investment article.text {
-        bottom: 1px;
-        /*background-color: red;*/
-        padding-bottom: 15vh;
-        width: 500px;
-      }
+      
       h2 {
         color: #00BFFF;
       }
@@ -576,18 +604,18 @@
         word-spacing: 2px;
         line-height: 1.5;
       }
-      .back {
+      #backnav {
         bottom: 0;
         right: 0;
         width: 34px;
         height: 53px;
-        background-image: url(screens/btn_back.png);
         z-index: 12;
         position: fixed;
-        margin-bottom: 12vh;
+        margin-top: 80vh;
         margin-right: 24vw;
         text-align: center;
         color: gray;
+        background-image: url(screens/btn_back.png);
       }
       .btn_txtl {
         position: fixed;
@@ -601,7 +629,7 @@
         bottom: 0;
         right: 0;
       }
-      .next {
+      #nextnav {
         bottom: 0;
         right: 0;
         width: 34px;
@@ -609,7 +637,7 @@
         background-image: url(screens/btn_next.png);
         z-index: 12;
         position: fixed;
-        margin-bottom: 12vh;
+        margin-top: 80vh;
         margin-right: 10vw;
       }
       .btn_txtr {
@@ -678,9 +706,11 @@
       #f-page {
         z-index: 16;
         text-decoration: none;
+        margin-right: 90px;
       }#f-page:hover {
         background-color: #6ecde3;
         text-decoration: none;
+        color: white;
       }
       .nav-main .nav-main-sub-item {
         color: white;
@@ -689,6 +719,12 @@
         font-size: 22px;
         /*font-weight: normal;*/
       }
+      .back_icon {
+        background-image: url(screens/nav_back.png);
+        z-index: 17;
+        /*width: 18px;
+        height: 18px;*/
+      }
       </style>
 
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -696,12 +732,13 @@
 
 <body class="page page-business-investment">
 
-  <!-- <div class="nav-wrap">
-    <a href="#" id="back-nav" class="nav"><span class="btn_txtl">Back</span></a>
-    <a href="#" id="next-nav" class="nav"><span class="btn_txtr">Next</span></a>
-  </div> -->
-  <div class="circ__top rot__circ0"></div>
-  <div class="circ__bot rot__circ1"></div>
+  <div class="nav-wrap">
+    <a href="#" id="backnav" class="nav"><span class="btn_txtl">Back</span></a>
+    <a href="#" id="nextnav" class="nav"><span class="btn_txtr">Next</span></a>
+  </div>
+
+<div class="circ__top rot__circ0"></div>
+<div class="circ__bot rot__circ1"></div>
 
 <div id="page-content" class="js-page-content clearfix page-business-investment" data-page="page-business-investment">
   <nav class="nav">
@@ -716,17 +753,17 @@
                 <li><a href="" class="nav-main-sub-item">Jurong Eco-Garden </a></li>
               </ul>
             </li>   
-
             <li><a href="" class="nav-main-item ">Gul</a></li>  <!-- id="business-link" -->
             <li><a href="" class="nav-main-item ">iHub</a></li>
             <li><a href="" class="nav-main-item ">Jurong Island</a></li>
           </ul>
       </div>
     </div>
+
+  <a id="f-page" onclick="window.location.href='index.html'" class="btn btn-primary btn-circular btn-icon nav-parallax nav-parallax-prev business-btn-back">J</a>
+
   <a class="btn btn-circular btn-icon nav-toggle js-nav-toggle"><span></span></a>
   </nav>
-
-<a id="f-page" onclick="window.location.href='index.html'" class="btn btn-primary btn-circular btn-icon nav-parallax nav-parallax-prev business-btn-back">J</a>
 
 <main class="parallax">
   <section class="screen js-projects screen-current">
@@ -765,13 +802,13 @@
         <!-- img 14 -->
         <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span>
         <!-- img 15 -->
-        <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span>
+        <!-- <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span> -->
         <!-- img 16 -->
-        <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span>
+        <!-- <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span> -->
         <!-- img 17 -->
-        <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span>
+        <!-- <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span> -->
         <!-- img 18 -->
-        <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span>
+        <!-- <span class="circle-nav-slide-img"><span class="img" style="background-image: url(img/LOWRES-CTT-Jun15-01.jpg)"></span></span> -->
       </div>
 
       <ul class="circle-nav-items">
@@ -779,44 +816,38 @@
           <span class="circle-nav-name  ">Introduction</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Drone Based 3D Mapping</span>
+          <span class="circle-nav-name  ">Automated Construction <br>Quality Assessment System</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">BigBelly (Smart Bin) Pilot <br>Implementation Implementation</span>
+          <span class="circle-nav-name  ">Automatic Indoor High-rise<br> Spray Painting System</span>
+        </li>
+        <!-- <li class="circle-nav-item   ">
+          <span class="circle-nav-name  ">Efficient Surface-cooled<br> Solar Panels</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Environmental Monitoring with an <br>Autonomous Submersible Vehicle</span>
+          <span class="circle-nav-name  ">Onsite Blackwater Water<br> Recycling System</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 05</span>
+          <span class="circle-nav-name  ">Hydrolysis-type De-scaling &<br> Deposit Removal System</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 06</span>
+          <span class="circle-nav-name  ">NAVYA Autonomous Vehicle</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 07</span>
+          <span class="circle-nav-name  ">RTE 1 MW Fuel Cell Plant</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 08</span>
+          <span class="circle-nav-name  ">NXP Building Sensors</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 09</span>
+          <span class="circle-nav-name  ">Diamond Energy</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 10</span>
+          <span class="circle-nav-name  ">Memsys Clearwater</span>
         </li>
         <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 11</span>
-        </li>
-        <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 12</span>
-        </li>
-        <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 13</span>
-        </li>
-        <li class="circle-nav-item   ">
-          <span class="circle-nav-name  ">Project 14</span>
-        </li>
+          <span class="circle-nav-name  ">Solid Asia Solar</span>
+        </li> -->
         <!-- <li class="circle-nav-item   ">
           <span class="circle-nav-name  ">Project 15</span>
         </li>
@@ -825,6 +856,9 @@
         </li>
         <li class="circle-nav-item   ">
           <span class="circle-nav-name  ">Project 17</span>
+        </li>
+        <li class="circle-nav-item   ">
+          <span class="circle-nav-name  ">Project 18</span>
         </li> -->
       </ul>
 
@@ -858,386 +892,100 @@
     </div>
     </div>
 
-    <!-- article 1 -->
-    <article class="text js-project-text ">          
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
+    <!--=00. Introduction |  jpeg: =-->
+<article class="text js-project-text ">
+  <div class="inner js-text">
+      <h2>
+          <small></small>JTC Space &#64; Gul
+      </h2>
+      <div>
           <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-          </a>
-        </p>
+              JTC Space &#64; Gul offers factory units with unique structural provisions that allow production activities traditionally carried out on land to be vertically integrated over multiple floors, occupying a much smaller land footprint and optimising land use. The three-storey development comes with high building specifications that provide maximum flexibility for industrialists to carry out a wide range of manufacturing activities.
+          </p>
       </div>
-    </article>
+  </div>
+</article>
 
-    <!-- article 2 -->
-    <article class="text js-project-text js-active">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>The JTC Summit</h2>
-        <div>
+<!--=01. Automated Construction Quality Assessment System =-->
+<article class="text js-project-text ">
+  <div class="inner js-text">
+      <h2>
+          <small></small>JTC Space &#64; Gul
+      </h2>
+      <div>
           <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-          </a>
-        </p>
+              Development of a mobile robot system (A-Conquars). Test-bedding involves using a mobile robot to conduct construction quality inspection. JTC targets to achieve a 15% reduction in the time taken to identify and rectify defects and manpower by 50&#37;. The field trial will be conducted at JTC Space &#64; Gul.
+          </p>
       </div>
-    </article>
+  </div>
+</article>
 
-    <!-- article 3 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>CleanTech Park</h2>
-        <div>
+<!--=02. Automatic Indoor High-rise Spray Painting System  =-->
+<article class="text js-project-text ">
+  <div class="inner js-text">
+      <h2>
+          <small></small>JTC Space &#64; Gul
+      </h2>
+      <div>
           <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-          </a>
-        </p>
+              Development of a mobile robot system equipped with a novel long reach mechanism for high-ceiling and wall painting applications. JTC aims to achieve a reduction in painting time by 25&#37; and manpower by 50&#37;. The robot will be test-bedded in a suitable construction site at the end of project. The test-bed location will be at CleanTech Two while the field trial will be at JTC Space &#64; Gul.
+          </p>
       </div>
-    </article>
+  </div>
+</article>
 
-    <!-- article 4 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>MedTech Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 5 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Tanjong Kling</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 6 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Jurong Port Road</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 7 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>iHub</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 8 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Tuas</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 9 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 10 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 11 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 12 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 13 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Seletar Aerospace Park</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <!-- article 14 -->
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Jurong Island</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-<!-- 
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Jurong Island</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Jurong Island</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-            
-          </a>
-        </p>
-      </div>
-    </article>
-
-    <article class="text js-project-text ">         
-      <div class="inner js-text">
-        <h2>
-          <small></small>Jurong Island</h2>
-        <div>
-          <p>
-            The Tree Carrier project was developed to address technical problems related to transplantation of existing trees using conventional methods.
-            Phase 1 of the Tree Carrier feasibility study was carried out in 2011, where the development and testing of two prototype bags were carried out in IBP & Chinese Gardens. The health of the trees had been monitored and was reported to be in good condition.
-            The trees pre-planted in Phase 1 were transplanted to Seletar Aerospace Park in 2014 during Phase 2. Based on the success of the first transplantation exercise using tree carriers, a Phase 3 has been proposed to implement it in a larger scale along a road that has been chosen for widening in the future.
-          </p>            
-        </div>
-        <p class="h3">
-          <a href="#" target="_blank">
-          </a>
-        </p>
-      </div>
-    </article>
- -->
   </section>
 </main>
 
 <script src="js/shared.raw.js"></script>
 <script src="js/investment.raw.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/investment.js"></script>
 
   <script type="text/javascript">
-
   $(function(){ 
+    $('.js-project-text').eq(0).addClass("js-active").siblings(".js-active").removeClass("js-active");  
 
-    $('.circle-nav').removeClass('js-circle-nav-initial').attr("data-active","1").find(".circle-nav-item:eq(1), .circle-nav-marker:eq(1)").addClass("js-active").siblings(".js-active").removeClass("js-active");    
+    $('#backnav').on('click', function(e) {
+      var curitem = $('.circle-nav').attr('data-active');   
+      console.log(curitem);
+      if (curitem == 0) {
 
-    $('div.js-project-text').first();
-    $('a.nav').on('click', function(e) {
-        e.preventDefault();
+      } else if (curitem == 1) {
+        
+        $('.circle-nav').removeClass('js-circle-nav-initial').attr("data-active","0").find(".circle-nav-item:eq(0), .circle-nav-marker:eq(0)").addClass("js-active").siblings(".js-active").removeClass("js-active");  
+        $('.js-project-text').eq(0).addClass("js-active").siblings(".js-active").removeClass("js-active");
 
-          var t = $(this).text(),
-          that = $(this);
+      } else if (curitem == 2) {
+        
+        $('.circle-nav').removeClass('js-circle-nav-initial').attr("data-active","1").find(".circle-nav-item:eq(1), .circle-nav-marker:eq(1)").addClass("js-active").siblings(".js-active").removeClass("js-active");  
+        $('.js-project-text').eq(1).addClass("js-active").siblings(".js-active").removeClass("js-active");  
 
-        if (t === 'next' && $('.js-active').next('div.js-project-text').length > 0) {
-            var $next = $('.js-active').next('.js-project-text');
-            var top = $next.offset().top;
-            
-            $('.js-active').removeClass('js-active');
-          
-            $('body').animate({
-              scrollTop: top     
-            }, function () {
-                   $next.addClass('js-active');
-            });
-      } else if (t === 'prev' && $('.js-active').prev('div.js-project-text').length > 0) {
-            var $prev = $('.js-active').prev('.js-project-text');
-            var top = $prev.offset().top;
-            
-            $('.js-active').removeClass('js-active');
-          
-            $('body').animate({
-              scrollTop: top     
-            }, function () {
-                   $prev.addClass('js-active');
-            });
       } 
     });
 
-  });
+    $('.js-project-text').eq(0).addClass("js-active").siblings(".js-active").removeClass("js-active");  
 
+    $('#nextnav').on('click', function(e) {
+      var curitem = $('.circle-nav').attr('data-active');   
+      console.log(curitem);
+      if (curitem == 0) {
+        $('.circle-nav').removeClass('js-circle-nav-initial').attr("data-active","1").find(".circle-nav-item:eq(1), .circle-nav-marker:eq(1)").addClass("js-active").siblings(".js-active").removeClass("js-active"); 
+        $('.js-project-text').eq(1).addClass("js-active").siblings(".js-active").removeClass("js-active");   
+      } else if (curitem == 1) {
+        $('.circle-nav').removeClass('js-circle-nav-initial').attr("data-active","2").find(".circle-nav-item:eq(2), .circle-nav-marker:eq(2)").addClass("js-active").siblings(".js-active").removeClass("js-active");  
+        $('.js-project-text').eq(2).addClass("js-active").siblings(".js-active").removeClass("js-active");  
+      } else if (curitem == 2) {
+        
+      } 
+
+    });
+
+  });
+  
   </script>
 
-</div> <!-- /#content -->
+</div> 
 </body>
+
 </html>
