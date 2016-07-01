@@ -23,7 +23,7 @@ a {
 .map__color	{ 
 	width: 1755px; 
 	height: 1755px;
-	margin-top: -25%;
+	margin-top: -22%;
 	margin-right: -70%;
 	padding-left: 15%;
 	position: fixed;
@@ -64,7 +64,7 @@ a {
 	top: 0;
 	left: 0;
 	margin-top: 100px;
-	margin-left: 850px;
+	margin-left: 950px;
 	background-image: url(screens/seletar_aerospace_park.png);
 	background-repeat: no-repeat;
 	background-size: 350px 214px;
@@ -83,25 +83,25 @@ a {
 	position: fixed;
 }
 .point__2 {
-	width: 260px;
-	height: 200px;
+	width: 223px;
+	height: 260px;
 	z-index: 8;
 	top: 0;
 	left: 0;
-	margin-top: 180px;
-	margin-left: 500px;
-	background-image: url(screens/pointer_2.png);
+	margin-top: 200px;
+	margin-left: 820px;
+	background-image: url(screens/pins/pointer_jtc-summit-1.png);
 	background-repeat: no-repeat;
-	background-size: 260px 200px;
+	background-size: 223px 260px;
 	position: fixed;
 	color: #0154ba;
 	font-size: 1.5vw;
 	font-weight: 600;
 	padding: 15px;
 }.point__2:hover {
-	background-image: url(screens/pointer_2b.png);
+	background-image: url(screens/pins/pointer_jtc-summit-2.png);
 	background-repeat: no-repeat;
-	background-size: 260px 200px;
+	background-size: 223px 260px;
 }
 .point__3 {
 	width: 100%;
