@@ -14,7 +14,8 @@ a {
   z-index: 5;
   top: 0;
   left: 0;
-  background-image: url(screens/home_bg_copy.png);
+  /*background-image: url(screens/home_bg_copy.png);*/
+  background-image: url(screens/home_bg_v2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
