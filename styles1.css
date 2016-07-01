@@ -29,7 +29,7 @@ a {
 	position: fixed;
 	z-index: 4;
 	/*background-image: url(screens/home_bg-color.png);*/
-	background-image: url(screens/home_bg-color_v2.png);
+	background-image: url(screens/home_bg-color_v3.png);
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-position: top center;
@@ -197,7 +197,7 @@ a {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	margin-right: 40px;
+	margin-right: 100px;
 	margin-bottom: 40px; /*50px*/
 	z-index: 7;
 	/*display: -webkit-flex;
@@ -212,22 +212,23 @@ a {
 	width: 100%;
 	height: auto;
 	padding: 20px;
-	font-size: 2vw;
+	font-size: 4vw;
 	font-weight: 600;
 	color: #6ecde3;
 	word-wrap: break-word;
 }
 .cont__box{
-	width: 100%;
+	width: 80%;
 	height: auto;
 	padding: 30px;
 	word-spacing: 3px;
-	font-size: .9vw;
+	font-size: 1vw;
 	color: #919191;
  	word-wrap: keep-all;
  	overflow: hidden;
   text-overflow: ellipsis;
-  border-left: 2px solid #d1d0d0;
+  /*border-left: 2px solid #d1d0d0;*/
+  margin: 20px;
 }
 .rot__circ0 {
   -webkit-animation: rotate 30s linear infinite;
