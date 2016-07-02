@@ -58,8 +58,8 @@ a {
 	background-size: contain;
 }
 .point__1 {
-	width: 350px;
-	height: 214px;
+	width: 294px;
+	height: 170px;
 	z-index: 8;
 	top: 0;
 	left: 0;
@@ -67,20 +67,18 @@ a {
 	margin-left: 1020px;
 	background-image: url(screens/pins/pointer_seletar-1.png);
 	background-repeat: no-repeat;
-	background-size: 350px 214px;
+	background-size: 294px 170px;
 	position: fixed;
 	color: #0154ba;
 	font-size: 1.5vw;
 	font-weight: 600;
-	padding: 15px;
+	padding-top: 15px;
+	text-align: center;
 }.point__1:hover {
-	width: 350px;
-	height: 214px;
-	z-index: 8;
 	background-image: url(screens/pins/pointer_seletar-2.png);
 	background-repeat: no-repeat;
-	background-size: 350px 214px;
-	position: fixed;
+	background-size: 294px 170px;
+	
 }
 .point__2 {
 	width: 223px;
