@@ -64,7 +64,7 @@ a {
 	position: fixed;
 	color: #0154ba;
 	font-size: 1.2vw;
-	font-weight: 600;
+	font-weight: 500;
 	padding-top: 15px;
 	text-align: center;
 	background-repeat: no-repeat;
@@ -108,8 +108,8 @@ a {
 .point__jpr {
 	width: 221px;
 	height: 165px;
-	margin-top: 360px;
-	margin-left: 650px;
+	margin-top: 390px;
+	margin-left: 620px;
 	background-image: url(screens/pins/pointer_jurong-port-1.png);
 	background-size: 211px 165px;
 }.point__jpr:hover {
