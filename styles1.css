@@ -73,14 +73,14 @@ a {
 	background-repeat: no-repeat;
 	z-index: 9;
 	background-size: 294px 170px;
-}.point__1 {
+}.point__sap {
 	width: 294px;
 	height: 170px;
 	margin-top: 130px;
 	margin-left: 1030px;
 	background-image: url(screens/pins/pointer_seletar-1.png);
 	background-size: 294px 170px;
-}.point__1:hover {
+}.point__sap:hover {
 	background-image: url(screens/pins/pointer_seletar-2.png);
 }
 .point__2 {
@@ -120,13 +120,25 @@ a {
 	width: 178px;
 	height: 114px;
 	margin-top: 500px;
-	margin-left: 550px;
+	margin-left: 670px;
 	padding-top: 80px;
 	background-image: url(screens/pins/pointer_medtech-1.png);
 	background-size: 178px 114px;
 }.point__mtp:hover {
 	background-image: url(screens/pins/pointer_medtech-2.png);
 	background-size: 178px 114px;
+}
+.point__seh {
+	width: 295px;
+	height: 322px;
+	margin-top: 520px;
+	margin-left: 500px;
+	padding-top: 285px;
+	background-image: url(screens/pins/pointer_surface-1.png);
+	background-size: 295px 322px;
+}.point__seh:hover {
+	background-image: url(screens/pins/pointer_surface-2.png);
+	background-size: 295px 322px;
 }
 .point__ctp {
 	width: 219px;
@@ -149,17 +161,6 @@ a {
 }.point__ji:hover {
 	background-image: url(screens/pins/pointer_jurong-island-2.png);
 	background-size: 177px 106px;
-}
-.point__3 {
-	width: 100%;
-	height: 100%;
-	margin-top: 390px;
-	margin-left: 250px;
-	background-image: url(screens/pointer_3.png);
-	background-size: 225px 120px;
-}.point__3:hover {
-	background-image: url(screens/pointer_3b.png);
-	background-size: 225px 120px;
 }
 .point__4 {
 	width: 100vw;
