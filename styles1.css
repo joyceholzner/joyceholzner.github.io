@@ -65,7 +65,7 @@ a {
 	left: 0;
 	margin-top: 100px;
 	margin-left: 950px;
-	background-image: url(screens/seletar_aerospace_park.png);
+	background-image: url(screens/pins/pointer_seletar-1.png);
 	background-repeat: no-repeat;
 	background-size: 350px 214px;
 	position: fixed;
@@ -77,7 +77,7 @@ a {
 	width: 350px;
 	height: 214px;
 	z-index: 8;
-	background-image: url(screens/seletar_aerospace_park_h.png);
+	background-image: url(screens/pins/pointer_seletar-2.png);
 	background-repeat: no-repeat;
 	background-size: 350px 214px;
 	position: fixed;
