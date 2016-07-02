@@ -83,14 +83,14 @@ a {
 }.point__sap:hover {
 	background-image: url(screens/pins/pointer_seletar-2.png);
 }
-.point__2 {
+.point__tjs {
 	width: 223px;
 	height: 260px;
 	margin-top: 260px;
 	margin-left: 820px;
 	background-image: url(screens/pins/pointer_jtc-summit-1.png);
 	background-size: 223px 260px;
-}.point__2:hover {
+}.point__tjs:hover {
 	background-image: url(screens/pins/pointer_jtc-summit-2.png);
 	background-size: 223px 260px;
 }
@@ -141,38 +141,63 @@ a {
 	background-size: 295px 322px;
 }
 .point__ctp {
-	width: 219px;
-	height: 194px;
-	margin-top: 200px;
-	margin-left: 600px;
+	width: 200px;
+	height: 232px;
+	margin-top: 270px;
+	margin-left: 500px;
 	background-image: url(screens/pins/pointer_cleantech-1.png);
 	background-size: 200px 232px;
 }.point__ctp:hover {
 	background-image: url(screens/pins/pointer_cleantech-2.png);
 	background-size: 200px 232px;
 }
+.point__jsag {
+	width: 223px;
+	height: 153px;
+	margin-top: 410px;
+	margin-left: 340px;
+	background-image: url(screens/pins/pointer_jtc-space-1.png);
+	background-size: 223px 153px;
+}.point__jsag:hover {
+	background-image: url(screens/pins/pointer_jtc-space-2.png);
+	background-size: 223px 153px;
+}
+.point__tuas {
+	width: 87px;
+	height: 124px;
+	margin-top: 510px;
+	margin-left: 340px;
+	background-image: url(screens/pins/pointer_tuas-1.png);
+	background-size: 87px 124px;
+}.point__tuas:hover {
+	background-image: url(screens/pins/pointer_tuas-2.png);
+	background-size: 87px 124px;
+}
 .point__ji {
 	width: 177px;
 	height: 106px;
-	margin-top: 200px;
-	margin-left: 600px;
+	margin-top: 650px;
+	margin-left: 670px;
+	padding-top: 70px;
 	background-image: url(screens/pins/pointer_jurong-island-1.png);
 	background-size: 177px 106px;
 }.point__ji:hover {
 	background-image: url(screens/pins/pointer_jurong-island-2.png);
 	background-size: 177px 106px;
 }
-.point__4 {
-	width: 100vw;
-	height: 100vh;
-	margin-top: 450px;
-	margin-left: 500px;
-	background-image: url(screens/pointer_4.png);
-	background-size: 166px 136px;
-}.point__4:hover {
-	background-image: url(screens/pointer_4b.png);
-	background-size: 166px 136px;
+.point__on {
+	width: 132px;
+	height: 122px;
+	margin-top: 550px;
+	margin-left: 820px;
+	padding-top: 85px;
+	background-image: url(screens/pins/pointer_one-north-1.png);
+	background-size: 132px 122px;
+}.point__on:hover {
+	background-image: url(screens/pins/pointer_one-north-2.png);
+	background-size: 132px 122px;
 }
+
 
 .loc__guide {
 	width: 168px;
