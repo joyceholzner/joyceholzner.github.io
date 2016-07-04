@@ -59,7 +59,7 @@
         left: auto !important;
         right:80px !important;
         top: 0;
-        margin-top: 370px;
+        margin-top: 310px;
         padding-bottom: 15vh;
         width: 500px;
       }/*
@@ -613,16 +613,56 @@
         height: 53px;
         z-index: 12;
         position: fixed;
-        margin-top: 80vh;
+        margin-top: 75vh;
         margin-right: 24vw;
         text-align: center;
         color: gray;
         background-image: url(screens/btn_back.png);
       }
+      #homenav {
+        bottom: 0;
+        right: 0;
+        width: 103px;
+        height: 64px;
+        background-image: url(screens/map.png);
+        z-index: 12;
+        position: fixed;
+        margin-top: 75vh;
+        margin-right: 14.5vw;
+      }
+      .btn_txth {
+        position: fixed;
+        z-index: 12;
+        margin-bottom: 10vh;
+        margin-right: 17.5vw;
+        text-align: center;
+        color: gray;
+        width: 34px;
+        height: 53px;
+        bottom: 0;
+        right: 0;
+      }
+      .footer-text{
+        bottom: 0;
+        right: 0;
+        width: 350px;
+        height: auto;
+        z-index: 12;
+        position: fixed;
+        margin-bottom: 6vh;
+        margin-right: 8.5vw; 
+        text-align: center;
+        font-size: 2rem;
+        color: #bbbbbb;
+      }
+      .footer-loc{
+        color: #53c5f2 !important;
+        text-align: center;
+      }
       .btn_txtl {
         position: fixed;
         z-index: 12;
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
         margin-right: 24vw;
         text-align: center;
         color: gray;
@@ -639,13 +679,13 @@
         background-image: url(screens/btn_next.png);
         z-index: 12;
         position: fixed;
-        margin-top: 80vh;
+        margin-top: 75vh;
         margin-right: 10vw;
       }
       .btn_txtr {
         position: fixed;
         z-index: 12;
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
         margin-right: 10vw;
         text-align: center;
         color: gray;
@@ -734,8 +774,10 @@
 
   <div class="nav-wrap">
     <a href="#" id="backnav" class="nav"><span class="btn_txtl">Back</span></a>
+    <a href="#" id="homenav" class="nav" onclick="window.location.href='index.html'"><span class="btn_txth">Home</span></a>
     <a href="#" id="nextnav" class="nav"><span class="btn_txtr">Next</span></a>
   </div>
+  <div class="footer-text">Testbedding footprint: <br><span class="footer-loc">Seletar Aerospace Park<span></div>
 
 <div class="circ__top rot__circ0"></div>
 <div class="circ__bot rot__circ1"></div>
@@ -760,9 +802,9 @@
       </div>
     </div>
 
-  <a id="f-page" onclick="window.location.href='index.html'" class="btn btn-primary btn-circular btn-icon nav-parallax nav-parallax-prev business-btn-back">&lt;</a>
+  <!-- <a id="f-page" onclick="window.location.href='index.html'" class="btn btn-primary btn-circular btn-icon nav-parallax nav-parallax-prev business-btn-back">&lt;</a>
 
-  <a class="btn btn-circular btn-icon nav-toggle js-nav-toggle"><span></span></a>
+  <a class="btn btn-circular btn-icon nav-toggle js-nav-toggle"><span></span></a> -->
   </nav>
 
 <main class="parallax">
@@ -827,7 +869,7 @@
     <article class="text js-project-text js-active">
         <div class="inner js-text">
             <h2>
-                <small></small>Seletar Aerospace Park
+                <!-- <small></small>Seletar Aerospace Park -->
             </h2>
             <div>
                 <p>
@@ -841,7 +883,7 @@
     <article class="text js-project-text js-active">
         <div class="inner js-text">
             <h2>
-                <small></small>Seletar Aerospace Park
+                <!-- <small></small>Seletar Aerospace Park -->
             </h2>
             <div>
                 <p>
@@ -855,7 +897,7 @@
     <article class="text js-project-text js-active">
         <div class="inner js-text">
             <h2>
-                <small></small>Seletar Aerospace Park
+                <!-- <small></small>Seletar Aerospace Park -->
             </h2>
             <div>
                 <p>
