@@ -110,8 +110,10 @@ a {
 .point__jpr {
 	width: 221px;
 	height: 165px;
-	margin-top: 390px;
-	margin-left: 620px;
+	/*margin-top: 390px;
+	margin-left: 620px;*/
+	margin-top: 550px;
+	margin-left: 640px;
 	background-image: url(screens/pins/pointer_jurong-port-1.png);
 	background-size: 211px 165px;
 }.point__jpr:hover {
@@ -121,8 +123,10 @@ a {
 .point__mtp {
 	width: 178px;
 	height: 114px;
-	margin-top: 520px;
-	margin-left: 640px;
+	margin-top: 390px;
+	margin-left: 620px;
+	/*margin-top: 520px;
+	margin-left: 640px;*/
 	padding-top: 75px;
 	background-image: url(screens/pins/pointer_medtech-1.png);
 	background-size: 178px 114px;
