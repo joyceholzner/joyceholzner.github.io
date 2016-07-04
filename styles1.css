@@ -87,7 +87,8 @@ a {
 	width: 223px;
 	height: 260px;
 	margin-top: 260px;
-	margin-left: 820px;
+	/*margin-left: 820px;*/
+	margin-left: 775px;
 	background-image: url(screens/pins/pointer_jtc-summit-1.png);
 	background-size: 223px 260px;
 }.point__tjs:hover {
@@ -98,7 +99,8 @@ a {
 	width: 219px;
 	height: 194px;
 	margin-top: 325px;
-	margin-left: 770px;
+	/*margin-left: 770px;*/
+	margin-left: 710px;
 	background-image: url(screens/pins/pointer_jurong-town-1.png);
 	background-size: 219px 194px;
 }.point__jth:hover {
