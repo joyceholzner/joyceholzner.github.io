@@ -133,9 +133,9 @@ a {
 .point__seh {
 	width: 295px;
 	height: 322px;
-	margin-top: 570px;
+	margin-top: 530px;
 	margin-left: 450px;
-	padding-top: 285px;
+	padding-top: 290px;
 	background-image: url(screens/pins/pointer_surface-1.png);
 	background-size: 295px 322px;
 }.point__seh:hover {
