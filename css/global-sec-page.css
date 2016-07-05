@@ -2,6 +2,9 @@
   left:auto;
     right: 100px;
 }
+.space {
+  padding-left: 20px;
+}
 .nav-content {
   margin-left: 25%;
 }
